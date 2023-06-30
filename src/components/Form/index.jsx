@@ -14,7 +14,7 @@ export function Form (){
 
     const { register, handleSubmit, formState: { errors }} = useForm()
 
-    const API = 'http://localhost:3000/auth/login'
+    const API = 'https://login-system-api-0cku.onrender.com/auth/login'
 
     function onSubmit(data) {
         

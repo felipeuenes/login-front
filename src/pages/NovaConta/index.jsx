@@ -12,7 +12,7 @@ export function NovaConta(){
 
     console.log(errors);
     
-    const API = 'http://localhost:3000/auth/register'
+    const API = 'https://login-system-api-0cku.onrender.com/auth/register'
       
     
     function onSubmit(data) {
